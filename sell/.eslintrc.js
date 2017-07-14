@@ -24,6 +24,8 @@ module.exports = {
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
     //强制分号
-    'semi': ['error', 'always']
+    'semi': ['error', 'always'],
+    'indent': 0, // 缩进什么的要求去掉
+    'space-before-function-paren': 0 // 方法与括号之前不加空格
   }
 };
